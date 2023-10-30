@@ -1,0 +1,8 @@
+DayThree
+
+
+Readonly variable value are assigned through the constructor but not by the getter and setter
+t1 has the reference of movieRating 
+Version number for enum constant {bad=0}
+
+

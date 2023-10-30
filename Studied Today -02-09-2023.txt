@@ -1,0 +1,5 @@
+Studied Today -02-09-2023
+
+Try and When
+
+The try block contains the code that might throw an exception, and the catch block catches and handles the exception if it occurs. The when clause can be added to the catch block to specify additional conditions that must be true for the catch block to execute.

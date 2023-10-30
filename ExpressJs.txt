@@ -1,0 +1,28 @@
+Database Drivers are 	agents ( js between database ) 
+
+COrs (Cross orgin scripting)
+
+
+axios is a open source library it is used  to help communication between server and client .
+
+
+
+Angular is a framework used for developing website angular js,
+
+Angular is open source based on TypeScript ;
+
+TypeScript language suppprts built-in data types 
+
+angular famous for MVC --(Client side MVC )
+
+angular is developed by chrome..
+
+angular supports oops;
+
+angular is used to create single web page..
+
+Uses Nodejs as a Platform..
+
+
+angular has many built in validation  ..
+angular 

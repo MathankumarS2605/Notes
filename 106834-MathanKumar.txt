@@ -1,0 +1,33 @@
+// See https://aka.ms/new-console-template for more information
+
+using System.ComponentModel.Design;
+
+String ins=Console.ReadLine();
+if (ins == "")
+{
+    Console.WriteLine("Please give number");
+}
+else
+{
+    int n = int.Parse(ins);
+    for (int i = 1; i <= n; i++)
+    {
+        if (i % 3 == 0 && i % 5 == 0)
+        {
+            Console.WriteLine("Grapes");
+        }
+        else if (i % 3 == 0)
+        {
+            Console.WriteLine("Apple");
+        }
+        else if (i % 5 == 0)
+        {
+            Console.WriteLine("Orange");
+        }
+        else
+        {
+            Console.WriteLine(i);
+        }
+    }
+
+}

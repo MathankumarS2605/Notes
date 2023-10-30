@@ -1,0 +1,12 @@
+Security 
+
+
+
+Security is two types 
+*Authentication  -- username and password , 
+*Authorization
+
+
+Domain: dev-b5acdpf6oucvh3my.us.auth0.com
+ClientID: aYi8Zw9fB5PL9p8vgA78l0Mxo4Dcewdz
+ClientSecret:Y6gp1T9sHy5Aktx_wkBLzDdOEE_WcsYDfXnXfFfZdlele-vvdvq0tq0-6yIZUQ9H

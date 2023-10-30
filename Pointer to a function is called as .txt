@@ -1,0 +1,8 @@
+Pointer to a function is called as functional pointer
+a pointer to method is called as functional pointers
+you can create strongly create method pointer
+
+DELEGATES 
+
+Single Cast
+Multi cast Delegate

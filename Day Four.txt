@@ -1,0 +1,56 @@
+Day Four 
+ 
+//collections are Tree,linkedList,Map etc;//does not have fixed size
+//collection can be heterogeneous
+Value type are loaded in Stack
+Reference type are loaded in heap
+
+
+
+  ARRRAYS(Fixed SIZE)
+* if the no of item are smaller then we go for Array else Collections
+* Data for all Data analysts can be used.
+* Uneven arrays.
+* 
+
+
+
+
+when value type is put into object array is called Boxing reverse it unboxing
+
+
+Analgrams
+was=saw
+[4:50 PM] Venkatakrishnan B
+
+Anagram
+
+"He was at the 24 floor of the building. He saw 42 pots of flowers there. He stop to check if the pots are watered."
+
+
+List and Dictionary
+
+Huge Volume of objects need to be dictionary
+
+
+Collections
+
+ArrayList- implements IList
+Queue-First-in First-out
+Stack-Last-in-first-out
+HashTable-Represents a collection of key/value
+SortedList-Represents a collection of key/value pairs that are sorted
+
+
+Iterator
+//common algorithm to navigate through the data irrespective of the data structure
+//Algorithm support by all data structure
+
+IEnumerable
+IEnumerator
+
+
+
+ 
+
+ 

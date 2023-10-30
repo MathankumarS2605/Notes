@@ -1,0 +1,80 @@
+NodeJS MangoDB'
+
+
+
+NodeJS
+
+It is a framework that is entriely written in JAvascript
+It is a server platforms
+It supports/follows Javascript syntax
+A normal javascript requires a browser to execute. Browser executes the normal JS code
+
+A javascript written using NodeJS doesn;t require a browser.Instead it requires NodeJS to run the script...
+Nodejs is used to run the javascript code on the server withoust the use of a browser 
+Nodejs provides a light-weight server environment to the javascript code..
+
+
+
+Internalization :
+
+*    "i18n:extract": "ng  --extract-i18n  --output-path src/locale"
+
+extract-i18n - name of the package.
+create one folder called locale..
+src/locale - consists of the translation files for all languages...
+
+
+MangoDb:
+* stores in the form of JSON -- Javascript object Notation  
+* Json is light weighted languages
+*MDB is a NOSQL database..
+
+
+Relational database  
+*Sql database 
+*Like Oracle, MysQL , MYsQLsErvER
+
+NoRelational Database:
+*THEY do not UsE SqL
+*tHEY Are CaLLED as	 nOsql DATaBase
+
+
+Taxonomy of NoSql
+*Key-value   -- redix --riak
+*Graph database --Neo4j --HyperGraphDB
+*Document-oriented  --MongoDB --CouchDB 
+*column family  --Cassandra --HBASE
+
+CAP theory of NOSQL:CAP:
+*Consistetency -- All replicas contain the same version
+*Availability -- System 
+*Partition Tolerance
+
+
+LECNAC EHT SEGNAHC(reversed) -- rollback
+
+
+Sharding of data:
+*Distributes a single logical database system across a cluster of machines 
+*Uses range-based partiontiong 
+
+*IN mongoDb record is called as document set of document in called as collection.
+A collection is a table in  relational database
+
+
+attacker.tv
+Flixhq.qs
+
+mongosh means mongo shell
+
+
+mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.2
+
+In Mongo DB ObjectId is automatically generated..
+and incremental manner..
+
+
+mongoose is a driver like mysql driver  ('mysql')
+
+
+

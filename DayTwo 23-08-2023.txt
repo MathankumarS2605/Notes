@@ -1,0 +1,89 @@
+DayTwo 23-08-2023
+
+NAMESPACE:
+
+{
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+}
+
+these are used to import the namespaces. 
+
+namespace is a logical grouping thing for .net artifacts(  classes ,interface, Delegates )(ex : //R.yyyy//S.vvvv)
+URI Unique Resource Identifier
+namespace can have more than one class but each class should have the unique name.
+Variable cannot be declare before the namespace .
+Variable declaration should be done only inside the class  and also called as Class Variable
+
+Method can only defined in the class.
+Global Variable and local Variable name can be same.
+Static method only can access the static variables but not non static variable.
+
+Statements cannot be done in the class body but only the variable declaration and method declaration can be done.
+A variable that holds the address of the object is called as reference variable.
+
+System.Object Base class to all classes in .net and all class inherits the value from System.Object
+
+four important methods that the child inherits are Equals(object,object),GetHashCode(),GetType(),ToString();(Specilization)
+
+Class
+
+*(_) starts with is a private variable 
+*name of the class should be noun name .and of the class should start with uppercase , a class can     be public , internal (friend) classes can be access  by the part of same project. 
+*A class must have atleast one constructor.
+*A constructor is a very special method . name of the class and name of the constructor have to be the same
+*If the programmmer does not provide constructor to the class then the compiler will add a parameter less constructor to the class.(implicitly)
+*If parameterized constructor is defined in the class then the compiler will not add the default constructor 
+*inner class can also callled as Aggregation.(window and wall ).for existence of objects another object is require then inner class.(Aggregates)
+*A class is said to be static does not instantiated 
+*static class does not have inheritance
+* A constructor said to be  private so that inheritance will occur.
+*final in java shield in class which cannot have children .
+*Singleton class have only one object.
+
+Members of the Class
+ *Fields(Class Variables) 
+ *Properties
+ *Events
+ *Constructors
+ *Methods
+ *inner classes
+ *finalizers
+
+*What is the class? Group of objects share the same symmetic structure is a class there must exists one or more objects.
+The process of grouping the objects in a problem statement is called as Classification.
+function is a algorithm to solve the problem
+Method is a behavior of the objects and not to solve the problem.
+
+4 reasons for application is low 
+thread sychronization lock
+open and close the file
+Socket
+Database connection (Polling)
+
+LOC doesn't matter(Lines of Code)
+
+CONSTRUCTOR
+*The purpose of the constructor ensure that the object is useable one.(initialisation and instantiation)
+*Constructor does not have the return type.
+*class is responsible for only one action SOLID 
+S: Single Responsibility Principle (SRP)
+O: Open-closed Principle (OCP)
+L: Liskov substitution Principle (LSP)
+I: Interface Segregation Principle (ISP)
+D: Dependency Inversion Principle (DIP)
+
+Object without any identifier is called as garbage;
+attributes means what the object contains.
+objects that has no behavior is called as value objects only used for tranfering data like array 
+
+Encapsulation
+PolyMorphism - (Compiled)design type polymorphism (OverLoading) and runtime type polymorphism(overriding)Late binding.
+Inheritance
+Modularity - Packages
+Abstraction 
+
+

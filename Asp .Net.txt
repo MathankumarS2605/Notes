@@ -1,0 +1,111 @@
+Asp .Net
+
+What is pattern
+
+pattern is the best solution to a recurring problem
+architectural pattern(high level solution) and design pattern(low level solution) are the two types of the pattern(Software)
+
+design types : creational pattern , Structural pattern and Behavioural Pattern
+
+Problem in object creation - creational pattern
+
+Problem in association of objects(linking objects) - structural pattern
+
+Problems in invoking methods(behavior) - behavioral pattern
+
+Micrsoft using  many patterns
+
+MVC - architectural pattern(model view controller(view controller, business logic controller)
+
+Design pattern -  IBM (RedBooks),ORACLE
+
+Creational pattern
+1.Factory method
+2.Abstract factory 
+3.builder
+4.singleton
+5.prototype
+
+Structural pattern
+1.proxy
+2.Adapter
+Adapter pattern acts as a bridge between two incompatible interfaces. This pattern involves a single class called adapter which is responsible for communication between two independent or incompatible interfaces
+3.facade(fazade)
+4.flyvate
+5.composite
+6.broker
+7.Decorater
+
+Behavioral pattern
+1.commentObject
+2.chainOfResponsibility
+3.Momento
+4.Mediater
+Mediator is a behavioral design pattern that reduces coupling between components of a program by making them communicate indirectly, through a special mediator object.
+5.Observer
+6.Template method
+7.state
+8.stratergy
+9.little language
+10.visitor
+11.Iterator
+
+
+(external envinronment in which what to use what and when to do it at runtime -- Dependency injection)
+Addition to this  IOC or  DI(Dependency injection/inversion of control) --> pattern that not comes under the above type.
+
+asp run inside a container(web server - executable(IIS))IIS- Informat
+asp is using DI;
+
+asp .net container (Kestrel)
+
+
+
+Developer.mozilla.org------->learn html.
+
+
+Http header has limit but Http Body has no limit
+
+Get is the default Method using by the browser (consists only header but not the body)
+(post method) after executing method the data is sent to the server and code behind will give correspond response
+ 
+
+SSL is standard technology for securing an internet connection by encrypting data sent between a website and a browser (or between two servers).
+
+Types of element
+
+1.Empty element ex:img (Self closing element)
+2.Element only element ex: head element and body element (element which has child element which are all nested to a parent element)
+3.text only element --> element whose child is only text element(h1,p)
+4.mixed element ---> elements as a child or text as a child(<div>)
+
+
+
+
+
+for binds label with input 
+
+
+(codeBehind)(canvas)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,138 @@
+
+
+angular :::  tag are components
+
+
+1. package.json
+
+2.main.ts
+
+3.index.html
+
+4.app.module.ts
+
+5.app.component.ts
+
+
+angular consists of several components (every componenets are tags)
+
+Angular app/website
+
+--collection of componnets/Tags
+   *view (html file)
+   *one or more(Css) styles 
+  *controller.
+  *model
+
+
+angular follow external style sheet by default(styleUrl)
+
+
+Two types of views : 1.external view and internal view...
+
+
+ng g  c
+
+
+testing librarry:
+
+*ng
+
+
+appComponent is the top level component in the angular..
+all component are child components of app
+
+
+
+{{}}-1-way binding.......
+[()] -  2 - way -binding ......
+
+
+1.Data Binding..
+2.Class Binding....(Attach  css class to a html tag)
+3.Event Binding....Attach a function(controller) TO a button / any button HTML tag
+<input type="button" onClick={display}/>
+4.property Binding
+5.Attribute Binding
+6.style Binding..>
+
+
+*ngFor,*ngIf ----- are the directives  (property)
+
+
+Diffrenet types of pipe
+
+string pipe
+currency pipe
+decimal pipe 
+date pipe
+interlaization
+
+|
+|
+
+
+pipe doesn't modified the actual value
+
+
+
+template driven form.......-->forms become as a template and based  on that structure of the forms the model is created automatically..
+
+
+Angular:
+*template driven forms  --use ngform
+*reactive forms --- built-in validation , dynamic and no need for model by using FormsGroup and FormsControl..
+
+<style>
+ table,tr,td{
+   border:1px solid black;
+   border-collapse:collapse;
+   text-align:center;
+ }
+</style>
+<table>
+  <tr *ngFor="let user of userList"><td>{{user.firstName}} </td><td>{{user.lastName}}</td> <td>{{user.joinDate}}</td> <td>{{user.salary}} </td></tr>
+</table>
+
+//ReactiveForms
+//FormsGroup represents the form
+//FormControl represents input items  in the form 
+
+useForm =new FormGroup(
+{
+   <definition of the field in the model and also respective valiadations>
+<fieldName1> : new FormControl(
+  <initial value>,<validations>)
+<fieldName2> : new FormControl(
+  <initial value>,<validations>)
+//min and max used for numeric fields.
+
+);
+
+},
+{
+//Timing of Validation 
+updateOn:<blur,change,submit>
+}
+
+
+Valiadations --> In Reactive Validation
+
+
+Component life cycle
+--------------------------
+Initialization phase -- ngOnInit
+                                   AfterContentInit
+
+Activation phase --   onActivate 
+View or Dispay phase --- AfterViewInit
+                                     --- AfterViewChecked
+
+Validation phase  -- ngDoCheck --- executed when ever the view changes every time
+                                AfterContentChecked
+updation phase   -- onUpdate
+Destroy phase  - - - onDestroy
+
+
+
+

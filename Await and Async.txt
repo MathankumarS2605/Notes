@@ -1,0 +1,18 @@
+Await and Async
+
+
+Await:
+
+When the asynchronous operation completes, 
+the await operator returns the result of the operation is called as await
+
+
+Async 
+An async keyword is a method that performs asynchronous tasks such as fetching data from a database, reading a file, etc.they can be marked as “async”. Whereas await keyword making “await” to a statement means suspending the execution of the async method it is residing 
+
+
+Inside an async function, you can use the await keyword before a call to a function that returns a promise.
+This makes the code wait at that point until the promise is settled, at which point the fulfilled value of the promise is treated as a return value, or the rejected value is thrown.
+
+x
+

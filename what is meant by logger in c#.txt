@@ -1,0 +1,8 @@
+what is meant by logger in c#
+what is the uses of ASp.net 
+what is dbcontext ?
+what is attached objects and unattached objects?
+what is different of types of entitystate.
+what is the api and why we use?
+what is Asyn and await?
+ 

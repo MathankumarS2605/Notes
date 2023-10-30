@@ -1,0 +1,30 @@
+Injectable like dependency inject mechanism... (Required object automatically created...)//decorator 
+
+Service can be access throughout the project .....
+
+Angular services
+Angular Routing
+Internalization
+
+
+Service layer is used to connect to the backend...
+Several threads runs simulataneously so that view doesn't have to wait ....
+
+Controller does not communicate with backend
+Controller communicate with the service
+
+
+View-->Controller-->Service-->api-->Database
+
+
+Routing --- Navigate between the pages(components)....
+
+
+boostrap:[] --- > Sequenece of the view  ----> index.html  
+
+
+Appcomponent is always the root components ...
+
+
+
+

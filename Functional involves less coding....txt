@@ -1,0 +1,27 @@
+Functional involves less coding...
+
+Routing:
+
+React JS -new Feature
+
+Routing:
+
+It is used to navigating the web page...
+
+
+CallBack  function means calling the function automatically....
+
+
+Express Js -- is used to provide microservice (api services) -- light weight application 
+
+*which is easy to manage
+*which is easy to 
+
+Microservices can run independtly(without dependency)
+Microservices can communicate with other microservices by sending data.
+Microservice can collection of api.
+
+Express js ia backend not for ui development
+but react js,angular js for ui development 
+
+
